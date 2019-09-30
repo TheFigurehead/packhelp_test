@@ -1,0 +1,43 @@
+/*
+Theme Name: PackHelp
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Oleksii Shkapenko
+Author URI: http://wordpress.org/
+Description: Test task for PackHelp.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: packhelp, alex, job
+Text Domain: packhelp
+*/
+
+.current-menu-item{
+    color: rgba(255,255,255,.75) !important;
+}
+
+/* vertical align */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-wrapper{
+    padding: 20px 0;
+}
+
+.feature-block{
+    text-align: center;
+}
+
+.feature-image{
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
